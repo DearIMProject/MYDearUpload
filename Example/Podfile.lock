@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MYDearUpload (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MYDearUpload (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  MYDearUpload:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MYDearUpload: b633896825429cc0ad466b9d008a04145eb75be6
+
+PODFILE CHECKSUM: 220d60f87064f88d8ac4c75f7643c3d41bb90565
+
+COCOAPODS: 1.14.3
